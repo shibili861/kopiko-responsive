@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.head-1 {
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+/* color section */
+.bg-black {
+    color: #000;
+}
+.navbar-nav a {
+    color: white;
+}
+.text-hash {
+    color: #999;
+}
+/* footer section */
+.copyright {
+    font-size: 13px;
+    color: #999;
+    padding-bottom: 35px;
+}
+.icons {
+    padding: 12rem 0px 12rem; 
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon img {
+    width: 30px;
+    height: 30px;
+    margin: 3rem;
+}
+.final-hover {
+    color: white;
+}
+/* Hover section */
+.head:hover {
+    color: rgb(255, 76, 76);
+    transition: 0.50s;
+}
+.navbar-nav .dropdown-item:hover {
+    color: rgb(255, 76, 76);
+    transition: 0.50s;
+}
+.navbar-nav .nav-link:hover {
+    color: rgb(255, 76, 76);
+    transition: 0.50s;
+}
+.text-hover:hover {
+    color: rgb(255, 76, 76);
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.50s;
+}
